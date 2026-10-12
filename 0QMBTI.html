@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MBTI Quiz</title>
+</head>
+<body>
+
+<h1>MBTI Quiz (Not Accurate)</h1>
+<h2 id="result"></h2>
+
+<script>
+  var types = ['INTJ','INTP','ENTJ','ENTP','INFJ','INFP','ENFJ','ENFP','ISTJ','ISFJ','ESTJ','ESFJ','ISTP','ISFP','ESTP','ESFP'];
+  var randomType = types[Math.floor(Math.random() * types.length)];
+  document.getElementById('result').textContent = randomType;
+</script>
+
+</body>
+</html>
